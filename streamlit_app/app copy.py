@@ -40,9 +40,8 @@ def main():
     # ========== Data ==================================================================
     # ==================================================================================
     
-    # path = 'streamlit_app/data/'
+    path = 'streamlit_app/data/'
     
-    path = './data/'
     brands = ['Iphone', 'Samsung', 'Robinhood', 'WhatsApp', 'Netflix', 'Disney', 'McDonalds', 'Ferrari']
     streams = ['Reddit','Twitter']
     topic_types = ['Hashtags', 'Broad Topics']
@@ -573,7 +572,7 @@ def main():
     # ==================================================================================
     
     
-    with open('./style.css') as f:
+    with open('。/style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     
 

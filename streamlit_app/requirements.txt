@@ -16,4 +16,8 @@ wordcloud
 imageio
 nltk
 matplotlib==3.3.4
-
+htbuilder==0.6.0
+show_extreme_posts
+networkx==2.8
+pyvis==0.2.1
+pydeck==0.7.1
